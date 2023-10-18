@@ -1,0 +1,39 @@
+body {
+    background: lightblue;
+}
+
+.order-summary {
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.order-summary img {
+    width: 100%;
+    height: 50%;
+}
+
+.order-summary h1, .order-summary h2 {
+    color: purple;
+}
+
+.annual-plan {
+    background: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+button:last-child {
+    background: red;
+}
